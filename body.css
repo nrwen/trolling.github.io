@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://cojo.ru/wp-content/uploads/2024/01/smailik-draznilka-19.gif);
+    background-size: cover; /* Масштабирование изображения на весь экран */
+    background-position: center; /* Центрирование изображения */
+}
+
+.container {
+    text-align: center;
+    width: 100%; /* Ширина контейнера на весь экран */
+    position: absolute; /* Позволяет разместить контейнер в верхней части */
+    top: 20px;
+}
+
+h1 {
+    font-size: 5em;
+    color: #000000;
+}
